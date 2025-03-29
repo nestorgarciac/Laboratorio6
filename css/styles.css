@@ -1,6 +1,7 @@
+
 .navbar-brand.active {
     background-color: white;
-    color: green !important;
+    color: blue !important;
     border-radius: 5px;
     padding: 5px 10px;
 }
