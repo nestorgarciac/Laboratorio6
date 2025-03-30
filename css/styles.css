@@ -13,3 +13,10 @@
     padding: 5px 10px;
 }
 
+/* Leija */
+.animate-fade-out {
+    transition: opacity 0.5s ease-out;
+}
+.animate-fade-out:hover {
+    opacity: 0.5;
+}
