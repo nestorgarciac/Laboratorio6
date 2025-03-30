@@ -38,32 +38,48 @@
             Los coches europeos modificados han dejado una huella imborrable en competencias como el drifting, el time attack y las carreras de circuito. También son protagonistas de exposiciones internacionales como el Essen Motor Show en Alemania, donde se celebran las mejores modificaciones. El apasionado compromiso de la comunidad europea de tuning resalta la creatividad y la innovación en cada proyecto, consolidando una cultura que une diseño y rendimiento en perfecta armonía.
         </p>
 
-        <!-- Alerta de Bootstrap con información interesante sobre los autos europeos -->
         <div class="alert alert-info" role="alert">
             <strong>Dato interesante:</strong> El tuning europeo no solo es sobre la apariencia, sino también sobre el rendimiento. Algunos autos modificados alcanzan velocidades y maniobrabilidad asombrosas gracias a modificaciones en los sistemas de suspensión y motores.
         </div>
 
-        <div class="row mt-4">
-            <div class="col-md-4 d-flex flex-column align-items-center justify-content-center">
-                <img src="img/bmw-m3.jpg" class="img-fluid rounded mx-auto d-block" alt="Nissan Skyline">
-                <p class="text-center"> <strong>BMW M3 E30</strong></p>
+        <!-- Carrusel de imágenes -->
+        <div id="carouselAutosEuropeos" class="carousel slide mt-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/bmw-m3.jpg" class="d-block w-100 rounded" alt="BMW M3 E30">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>BMW M3 E30</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/audirs3.jpg" class="d-block w-100 rounded" alt="AUDI RS3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>AUDI RS3</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/mercedes.jpg" class="d-block w-100 rounded" alt="MERCEDES-BENZ AMG GT">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>MERCEDES-BENZ AMG GT</h5>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 d-flex flex-column align-items-center justify-content-center">
-                <img src="img/audirs3.jpg" class="img-fluid rounded mx-auto d-block" alt="Toyota Supra">
-                <p class="text-center"> <strong>AUDI RS3</strong></p>
-            </div>
-            <div class="col-md-4 d-flex flex-column align-items-center justify-content-center">
-                <img src="img/mercedes.jpg" class="img-fluid rounded mx-auto d-block" alt="Mazda RX-7">
-                <p class="text-center"> <strong>MERCEDES-BENZ AMG GT</strong></p>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutosEuropeos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselAutosEuropeos" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
         </div>
-        
     </main>
+    
     <footer class="text-center mt-5">
         <p>&copy; 2025 AWMotorsports. Todos los derechos reservados.</p>
     </footer>
 
-    <!-- Incluir la librería JavaScript de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
